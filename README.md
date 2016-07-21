@@ -14,7 +14,7 @@ pip install virtualenvwrapper
 ```
 Once this is complete, run the following to initialize your environment.
 ```bash
-mkvirtualenv table-tennis
+mkvirtualenv baseballray
 ```
 3. Install Python modules
 ```bash
