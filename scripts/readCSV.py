@@ -1,7 +1,7 @@
 import csv, sys, psycopg2, os
 
 try:
-   conn=psycopg2.connect("dbname='{0}' user='{1}'".format(os.environ['DBNAME'], os.environ['DBUSER']))
+   conn=psycopg2.connect("dbname='{0}' user='{1}' host='localhost'".format(os.environ['DBNAME'], os.environ['DBUSER']))
 except:
    print "I am unable to connect to the database."
    sys.exit()
